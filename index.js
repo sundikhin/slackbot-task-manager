@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Read a token from the environment variables
 const token = process.env.SLACK_TOKEN;
-const slack_url = "https://hooks.slack.com/services/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";
+const slack_url = process.env.SLACK_URL;
 
 app.use(async ctx => {
   ctx.body = 'Hello World';
