@@ -8,10 +8,6 @@ const http = require('http');
 const axios = require('axios');
 const api = require('./api');
 const modalView = require('./payload');
-    
-// const slackInteractions = createMessageAdapter(process.env.SLACK_SIGNING_SECRET)
-    
-// app.use('/slack/actions', slackInteractions.expressMiddleware())
 
 // Read a token from the environment variables
 // const token = process.env.SLACK_TOKEN;
